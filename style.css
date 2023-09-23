@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ALK life;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background: #D9D9D9;
+    width: 1440px;
+    height: 200px;
+
+}
+
+    
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 170px;
+    cursor: pointer;
+   
+
+    
+}
+header ul li:hover{
+    background: linear-gradient(#6045ea,#8567f7);
+	color: #ffff;
+	transition: 2s;
+    border-radius: 10px;
+}
+.bolo:hover{
+    background: linear-gradient(#6045ea,#8567f7);
+	color: #ffff;
+	transition: 2s;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+
+main{
+    display: flex;
+    padding-left: 20px;
+    
+  
+
+}
+.back{
+    justify-content: center;
+    margin-top: 160px;
+}
+.fot{
+    width: 100px;
+    height: 100px;
+    background: #A62B28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+section{
+    margin-top: 100px;
+    padding-left: 20px;
+    
+}
+.qalebi{
+    font-size: 32px;
+    font-family: dejavu sans-serif;
+    line-height: normal;
+    padding-left: 60px;
+    
+    
+}
+
+.gallery-wrap {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-item-img {
+    margin-bottom: 50px;
+
+}
+
+.main-header {
+    background: #D9D9D9;
+    padding: 50px 0;
+    display: flex;  
+}
+
+.book-author {
+    color: #717276;
+    font-family: "DejaVu Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.book-name {
+    color: #000;
+    font-family: "ALK Life";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 8px 0;
+}
+
+.book-price {
+    color: #000;
+    font-family: "DejaVu Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+.bolo{
+    background:#A62B28;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+
+
+}
+
+.avto{
+    padding: 20px;
+}
+
+.container{
+    width: 1440px;
+    height: 283px;
+    top: 2383px;
+    background: #D9D9D9;
+    margin-top: 100px;
+}
+.wrapp{
+    padding: 50px;
+    margin-top: 20px;
+}
+.dabla{
+    font-size: 24px;
+    display: block;
+}
+.imagg{
+    display: flex;
+   
+    
+}
+.fot:hover{
+    background: linear-gradient(#6045ea,#8567f7);
+	color: #ffff;
+	transition: 2s;
+    cursor: pointer;
+    border-radius: 20px;
+}
